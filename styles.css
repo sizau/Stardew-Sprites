@@ -73,7 +73,7 @@ select {
 }
 
 .sprite-container {
-    width: 128px;
+    width: 64px;
     height: 128px;
     margin: 0 auto;
     position: relative;
@@ -88,5 +88,5 @@ select {
     top: 0;
     left: 0;
     transform-origin: 0 0;
-    transform: scale(2);
+    transform: scale(4); /* 放大4倍，使16px变为64px */
 }
