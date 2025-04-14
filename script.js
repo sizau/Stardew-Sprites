@@ -90,8 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     }
-    
-    // 检查角色是否有变体版本
+      // 检查角色是否有变体版本
     function checkCharacterVariants(characterName) {
         // 先重置变体选择器
         variantSelect.value = '';
@@ -100,9 +99,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // 检查是否存在变体版本
         const hasBeach = characterList.includes(`${characterName}_Beach.png`);
         const hasWinter = characterList.includes(`${characterName}_Winter.png`);
+        const hasJojaMart = characterList.includes(`${characterName}_JojaMart.png`);
+        const hasHospital = characterList.includes(`${characterName}_Hospital.png`);
         
         // 如果存在变体版本，显示变体选择器
-        if (hasBeach || hasWinter) {
+        if (hasBeach || hasWinter || hasJojaMart || hasHospital) {
             variantContainer.style.display = 'inline-block';
             
             // 清空现有的变体选项（保留默认选项）
@@ -122,6 +123,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 const option = document.createElement('option');
                 option.value = 'Winter';
                 option.textContent = '冬季';
+                variantSelect.appendChild(option);
+            }
+            
+            if (hasJojaMart) {
+                const option = document.createElement('option');
+                option.value = 'JojaMart';
+                option.textContent = 'Joja超市';
+                variantSelect.appendChild(option);
+            }
+            
+            if (hasHospital) {
+                const option = document.createElement('option');
+                option.value = 'Hospital';
+                option.textContent = '医院';
                 variantSelect.appendChild(option);
             }
         }
@@ -206,8 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
             animationsContainer.innerHTML = `<div class="error">加载角色 ${characterName} 的动画失败。</div>`;
         }
     }
-    
-    // 加载动画配置（纯前端实现）
+      // 加载动画配置（纯前端实现）
     async function loadAnimationConfig(characterName) {
         try {
             // 直接从Animations目录加载对应的JSON文件
@@ -215,11 +229,26 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
-            return await response.json();
+            
+            // 获取原始JSON文本
+            const jsonText = await response.text();
+            
+            // 使用自定义函数解析JSON，处理尾部逗号的问题
+            return parseJsonWithTrailingCommas(jsonText);
         } catch (error) {
             console.error(`加载 ${characterName} 的动画配置失败:`, error);
             throw error;
         }
+    }
+    
+    // 处理JSON尾部逗号的自定义解析函数
+    function parseJsonWithTrailingCommas(jsonString) {
+        // 移除对象内属性后的尾部逗号
+        // 正则表达式匹配: 逗号后跟任意空白字符，然后是 } 或 ]
+        const fixedJsonString = jsonString.replace(/,(\s*[\}\]])/g, '$1');
+        
+        // 使用标准JSON解析器解析修正后的字符串
+        return JSON.parse(fixedJsonString);
     }
     
     // 加载精灵图
