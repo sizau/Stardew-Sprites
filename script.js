@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const characterSelect = document.getElementById('character-select');
-    const variantSelect = document.getElementById('variant-select');
-    const variantContainer = document.getElementById('variant-container');
-    const animationsContainer = document.getElementById('animations-container');
-    const loadingIndicator = document.getElementById('loading');
+    const characterSelect = document.getElementById('stardew-character-select');
+    const variantSelect = document.getElementById('stardew-variant-select');
+    const variantContainer = document.getElementById('stardew-variant-container');
+    const animationsContainer = document.getElementById('stardew-animations-container');
+    const loadingIndicator = document.getElementById('stardew-loading');
     
     // 存储已加载的角色数据
     const characterData = {};
@@ -264,11 +264,10 @@ document.addEventListener('DOMContentLoaded', () => {
             };
         });
     }
-    
-    // 显示动画
+      // 显示动画
     function displayAnimations(characterName, animations, spriteImage) {
         if (!animations || animations.length === 0) {
-            animationsContainer.innerHTML = `<div class="error">没有找到 ${characterName} 的动画。</div>`;
+            animationsContainer.innerHTML = `<div class="stardew-error">没有找到 ${characterName} 的动画。</div>`;
             return;
         }
         
@@ -281,17 +280,17 @@ document.addEventListener('DOMContentLoaded', () => {
         // 为每个动画创建一个盒子
         animations.forEach(animation => {
             const animationBox = document.createElement('div');
-            animationBox.className = 'animation-box';
+            animationBox.className = 'stardew-animation-box';
             
             const animationTitle = document.createElement('div');
-            animationTitle.className = 'animation-title';
+            animationTitle.className = 'stardew-animation-title';
             animationTitle.textContent = animation.animation;
             
             const spriteContainer = document.createElement('div');
-            spriteContainer.className = 'sprite-container';
+            spriteContainer.className = 'stardew-sprite-container';
             
             const spriteElement = document.createElement('div');
-            spriteElement.className = 'sprite';
+            spriteElement.className = 'stardew-sprite';
             spriteElement.style.width = `${spriteImage.width}px`;
             spriteElement.style.height = `${spriteImage.height}px`;
             spriteElement.style.backgroundImage = `url(Characters/${characterName}.png)`;

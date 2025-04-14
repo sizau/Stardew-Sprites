@@ -11,7 +11,7 @@ body {
     padding: 20px;
 }
 
-.container {
+.stardew-container {
     max-width: 1200px;
     margin: 0 auto;
     background-color: white;
@@ -20,18 +20,18 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.stardew-heading {
     text-align: center;
     margin-bottom: 20px;
     color: #4b692f;
 }
 
-.controls {
+.stardew-controls {
     margin-bottom: 20px;
     text-align: center;
 }
 
-select {
+.stardew-select {
     padding: 8px 12px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -39,7 +39,7 @@ select {
     min-width: 200px;
 }
 
-.loading-indicator {
+.stardew-loading-indicator {
     text-align: center;
     padding: 20px;
     font-size: 18px;
@@ -47,14 +47,14 @@ select {
     display: none;
 }
 
-.animations-container {
+.stardew-animations-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: flex-start;
 }
 
-.animation-box {
+.stardew-animation-box {
     border: 1px solid #ddd;
     padding: 5px;
     border-radius: 4px;
@@ -63,11 +63,11 @@ select {
     margin: 5px;
 }
 
-.animation-title {
+.stardew-animation-title {
     display: none; /* 隐藏动画标题 */
 }
 
-.sprite-container {
+.stardew-sprite-container {
     width: 48px;
     height: 96px;
     margin: 0 auto;
@@ -75,7 +75,7 @@ select {
     overflow: hidden;
 }
 
-.sprite {
+.stardew-sprite {
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;

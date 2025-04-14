@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Stardew Valley 角色动画播放器</h1>
+    <div class="stardew-container">
+        <h1 class="stardew-heading">Stardew Valley 角色动画播放器</h1>
         
-        <div class="controls">
-            <label for="character-select">选择角色：</label>
-            <select id="character-select">
+        <div class="stardew-controls">
+            <label for="stardew-character-select">选择角色：</label>
+            <select id="stardew-character-select" class="stardew-select">
                 <option value="">--请选择角色--</option>
                 <!-- 角色选项会通过JavaScript动态添加 -->
             </select>
             
-            <span class="variant-selector" id="variant-container" style="display: none;">
-                <label for="variant-select">变体：</label>
-                <select id="variant-select">
+            <span class="stardew-variant-selector" id="stardew-variant-container" style="display: none;">
+                <label for="stardew-variant-select">变体：</label>
+                <select id="stardew-variant-select" class="stardew-select">
                     <option value="">默认</option>
                     <option value="Beach">海滩</option>
                     <option value="Winter">冬季</option>
@@ -27,9 +27,9 @@
             </span>
         </div>
         
-        <div class="loading-indicator" id="loading">加载中...</div>
+        <div class="stardew-loading-indicator" id="stardew-loading">加载中...</div>
         
-        <div class="animations-container" id="animations-container">
+        <div class="stardew-animations-container" id="stardew-animations-container">
             <!-- 动画会在这里动态生成 -->
         </div>
     </div>
