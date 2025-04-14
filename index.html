@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stardew Valley 角色动画播放器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stardew Valley 角色动画播放器</h1>
+        
+        <div class="controls">
+            <label for="character-select">选择角色：</label>
+            <select id="character-select">
+                <option value="">--请选择角色--</option>
+                <!-- 角色选项会通过JavaScript动态添加 -->
+            </select>
+        </div>
+        
+        <div class="loading-indicator" id="loading">加载中...</div>
+        
+        <div class="animations-container" id="animations-container">
+            <!-- 动画会在这里动态生成 -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
