@@ -1,0 +1,52 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "jumprope",
+        "frames": [16, 17, 18, 19],
+        "eventId": "181928(Forest), 8959199(Mountain), jas_jumprope(Schedule), 191393(Town)"
+    },
+	{
+        "animation": "hand up",
+        "frames": [20, 21],
+        "eventId": "181928(Forest)"
+    },
+	{
+        "animation": "read",
+        "frames": [22],
+        "eventId": "jas_read(Schedule), 3910974(AnimalShop), 8959199(Mountain)"
+    },
+	{
+        "animation": "hug",
+        "frames": [23],
+        "eventId": "3910974(AnimalShop)"
+    },	
+	{
+        "animation": "gift",
+        "frames": [24],
+        "eventId": "3910974(AnimalShop)"
+    },	
+	{
+        "animation": "sleep",
+        "frames": [25],
+        "eventId": "jas_sleep(Schedule)"
+    }
+]

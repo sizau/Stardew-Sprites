@@ -1,0 +1,32 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "umbrella",
+        "frames": [16, 16, 16, 16, 17, 17, 17, 17, 18, 18, 17, 17, 19, 19, 17, 17, 18, 18, 17, 17, 19, 19, 17, 17],
+        "eventId": "sebastian_beach_umbrella(Schedule)"
+    },
+	{
+        "animation": "towel",
+        "frames": [20, 20, 20, 20, 21, 22, 22, 22, 22, 21, 20, 20, 20, 20, 23, 23, 23, 23],
+        "eventId": "sebastian_beach_towel(Schedule)"
+    }
+]

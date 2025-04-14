@@ -1,0 +1,28 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "beach towel",
+        "frames": [16, 17, 18, 19, 19, 19, 19, 18, 17, 16],
+        "eventId": "maru_beach_towel(Schedule)"
+    }
+	
+]

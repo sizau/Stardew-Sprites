@@ -1,0 +1,94 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "FlowerDance",
+        "frames": [	44, 44, 44, 45, 45, 45, 44, 44, 44, 45, 45, 45, 46, 47, 46, 47, 46, 47, 46, 47, 46, 47, 46, 47, 46, 47, 46, 47, 44, 44, 44, 45, 45, 45, 44, 44, 44, 45, 45, 45],
+        "eventId": "mainEvent(spring24)"
+    },
+	{
+        "animation": "wedding",
+        "frames": [48, 48, 48, 48, 49, 49, 49, 49, 50, 50, 50, 50, 49, 49, 49, 49, 48, 48, 48, 48],
+        "eventId": ""
+    },
+	{
+        "animation": "read",
+        "frames": [16, 16, 17, 18, 17, 16, 16],
+        "eventId": "harvey_read(Schedule)"
+    },
+	{
+        "animation": "cook",
+        "frames": [19, 19, 19, 19, 53, 53, 53, 53],
+        "eventId": "3917626",
+        "eventPath": "Data/Events/FarmHouse"
+    },
+	{
+        "animation": "examine",
+        "frames": [20, 20, 20, 21, 21, 21, 21, 20, 20, 20],
+        "eventId": "7(Hospital)"
+    },
+	{
+        "animation": "radio",
+        "frames": [23, 23, 28, 28],
+        "eventId": "571102(Hospital), harvey_radio(Schedule)"
+    },
+	{
+        "animation": "exercise",
+        "frames": [ 26, 27, 25, 26, 27, 25, 26, 26, 25,
+					24, 27, 26, 26, 25, 24, 27, 26],
+        "eventId": "58(SeedShop)"
+    },	
+	{
+        "animation": "balloon",
+        "frames": [29, 29, 29, 29, 30, 30, 30, 30, 32, 32, 32, 32, 33, 33, 33, 33, 30, 30, 30, 30, 0, 0, 33, 33],
+        "eventId": "528052(Railroad)"
+    },
+	{
+        "animation": "kissing",
+        "frames": [31],
+        "eventId": "571102(Railroad)"
+    },
+	{
+        "animation": "examine2",
+        "frames": [34, 34, 34, 35, 35, 35, 35, 34, 34, 34],
+        "eventId": "harvey_examine_left(Schedule)"
+    },
+	{
+        "animation": "eat",
+        "frames": [36, 36, 37, 38, 38, 37, 36, 36],
+        "eventId": "harvey_eat(Schedule)"
+    },
+	{
+        "animation": "read2",
+        "frames": [39, 39, 42, 43, 42, 39, 39],
+        "eventId": ""
+    },
+	{
+        "animation": "pasta",
+        "frames": [51, 51, 52, 52],
+        "eventId": "3917626(FarmHouse)"
+    },
+	{
+        "animation": "sleep",
+        "frames": [54],
+        "eventId": "harvey_sleep(Schedule)"
+    }
+]

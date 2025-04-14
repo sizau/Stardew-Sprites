@@ -1,0 +1,112 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "FlowerDance",
+        "frames": [	44, 44, 44, 45, 45, 45,
+					44, 44, 44, 45, 45, 45,
+					46, 47, 46, 47, 46, 47, 46, 47,
+					46, 47, 46, 47, 46, 47, 46, 47,
+					44, 44, 44, 45, 45, 45,
+					44, 44, 44, 45, 45, 45],
+        "eventId": "mainEvent(spring24)"
+    },
+	{
+        "animation": "wedding",
+        "frames": [48, 48, 48, 48, 49, 49, 49, 49, 50, 50, 50, 50, 49, 49, 49, 49, 48, 48, 48, 48],
+        "eventId": ""
+    },
+	{
+		"animation": "gamebody",
+        "frames": [16, 17, 18, 19],
+        "eventId": "sam_gameboy(Schedule)"
+    },
+	{
+        "animation": "guitar",
+        "frames": [20, 20, 20, 21, 21, 21, 20, 20, 20, 21, 21, 21, 22, 22, 22, 23, 23, 23, 22, 22, 22, 23, 23, 23],
+        "eventId": "sam_guitar(Schedule), 44(SamHouse), poppy(Temp), heavy(Temp), techno(Temp), honkytonk(Temp)"
+    },
+	{
+        "animation": "board game",
+        "frames": [24],
+        "eventId": "27(SebastianRoom)"
+    },
+	{
+        "animation": "skateboarding",
+        "frames": [25, 25, 25, 25, 25, 25, 25, 27, 27, 25, 25, 25, 25, 27, 27, 27, 27, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 27, 27, 27, 27, 27, 25, 26, 29, 30, 31, 32, 32, 32, 31, 31, 31, 31, 31, 31, 31, 31, 31, 32, 32, 32, 32, 31, 30, 29, 26, 25, 27, 27, 27, 27, 27, 27],
+        "eventId": "sam_skateboarding(Schedule), 45(Town)"
+    },
+	{
+        "animation": "surprised",
+        "frames": [33],
+        "eventId": "46(SamHouse), 233104(SamHouse)"
+    },
+	{
+        "animation": "father",
+        "frames": [34, 34, 35, 35],
+        "eventId": "733330(Beach)"
+    },
+	{
+        "animation": "bed",
+        "frames": [36],
+        "eventId": "stayPut(SamHouse)"
+    },
+	{
+        "animation": "depressed",
+        "frames": [37],
+        "eventId": "rejectSam(SamHouse)"
+    },
+	{
+        "animation": "kiss",
+        "frames": [38],
+        "eventId": "233104(SamHouse)"
+    },
+	{
+        "animation": "letter",
+        "frames": [39],
+        "eventId": "3918601(FarmHouse)"
+    },
+	{
+        "animation": "pool",
+        "frames": [4, 4, 4, 4, 34, 34, 34, 34],
+        "eventId": "sam_pool(Schedule)"
+    },
+	{
+        "animation": "work",
+        "frames": [40, 40, 41, 41, 42, 42, 41 ,41],
+        "eventId": "sam_work(Schedule)"
+    },
+	{
+        "animation": "song",
+        "frames": [43, 43, 51, 51],
+        "eventId": "3918601(FarmHouse)"
+    },
+	{
+        "animation": "guitar2",
+        "frames": [52, 52, 53, 53],
+        "eventId": "3918602(FarmHouse)"
+    },
+	{
+        "animation": "sleep",
+        "frames": [54],
+        "eventId": "sam_sleep(Schedule)"
+    }
+]

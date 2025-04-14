@@ -1,0 +1,57 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "festival",
+        "frames": [16],
+        "eventId": "mainEvent(winter8), mainEvent_y2(winter8)"
+    },
+	{
+        "animation": "sit",
+        "frames": [24],
+        "eventId": "pam_sit_down(Schedule), mainEvent(summer28)"
+    },
+	{
+        "animation": "sleep",
+        "frames": [30, 30, 30, 30, 31, 31, 31, 31],
+        "eventId": "pam_sleep(Schedule)"
+    },
+	{
+        "animation": "tear",
+        "frames": [25, 25, 25, 25, 26, 27, 26, 27, 26, 27],
+        "eventId": "611173(Town), choseToBeKnown(Town), choseToBeKnown_pennySpouse(Town), 503180(Trailer_Big)"
+    },
+	{
+        "animation": "complaint",
+        "frames": [28, 29],
+        "eventId": "963313(Trailer)"
+    },
+	{
+        "animation": "taste",
+        "frames": [32, 32, 33, 33, 34, 34, 33, 34, 32, 32, 35, 35],
+        "eventId": "963313(Trailer)"
+    },
+	{
+        "animation": "omelette",
+        "frames": [36],
+        "eventId": "3206194(Saloon)"
+    }
+]

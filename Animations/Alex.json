@@ -1,0 +1,77 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "FlowerDance",
+        "frames": [	44, 44, 44, 45, 45, 45, 44, 44, 44, 45, 45, 45, 46, 47, 46, 47, 46, 47, 46, 47, 46, 47, 46, 47, 46, 47, 46, 47, 44, 44, 44, 45, 45, 45, 44, 44, 44, 45, 45, 45],
+        "eventId": "mainEvent(spring24)"
+    },
+	{
+        "animation": "wedding",
+        "frames": [48, 48, 48, 48, 49, 49, 49, 49, 50, 50, 50, 50, 49, 49, 49, 49, 48, 48, 48, 48],
+        "eventId": "",
+    },
+	{
+        "animation": "ball",
+        "frames": [16, 16, 16, 17, 18, 19, 19, 20, 21, 23, 23, 23, 23],
+        "eventId": "20(Beach), alex_football(Schedule)"
+    },
+	{
+        "animation": "pass the ball",
+        "frames": [24, 24, 25, 25, 26, 26],
+        "eventId": "20(Beach)"
+    },
+	{
+        "animation": "depressed",
+        "frames": [27],
+        "eventId": "2481135(Town), didntHear((Town)"
+    },
+	{
+        "animation": "exercising",
+        "frames": [34, 34, 34, 34, 33, 28, 29, 30, 31, 32, 32, 31 ,30 ,29 ,28, 33],
+        "eventId": "22119820(JoshHouse), alex_lift_weights(Schedule)"
+    },
+	{
+        "animation": "box",
+        "frames": [38, 38, 38, 38, 36, 37, 37, 37, 37, 36, 38, 38, 35, 35, 35, 35],
+        "eventId": "288847(Beach)"
+    },
+	{
+        "animation": "sit",
+        "frames": [39],
+        "eventId": "alex_sit_left(Schedule)"
+    },
+	{
+        "animation": "eat",
+        "frames": [40, 41, 41],
+        "eventId": "911526(Saloon)"
+    },
+	{
+        "animation": "kissing",
+        "frames": [42],
+        "eventId": "",
+    },
+	{
+        "animation": "sleep",
+        "frames": [51],
+        "eventId": "alex_sleep(Schedule)"
+    }
+]

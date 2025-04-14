@@ -1,0 +1,42 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "work1",
+        "frames": [16, 16, 22, 22, 20, 20, 22, 18, 18],
+        "eventId": ""
+    },
+	{
+        "animation": "work2",
+        "frames": [17, 17, 23, 23, 21, 21, 23, 19, 19],
+        "eventId": ""
+    },
+	{
+        "animation": "blue ",
+        "frames": [0, 0, 0, 0, 39, 39, 39, 39],
+        "eventId": ""
+    },
+	{
+        "animation": "sleep",
+        "frames": [43],
+        "eventId": ""
+    }
+]

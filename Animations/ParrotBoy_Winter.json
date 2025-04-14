@@ -1,0 +1,57 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "surprised",
+        "frames": [16],
+        "eventId": "1039573(IslandHut)"
+    },
+	{
+        "animation": "bird sound",
+        "frames": [17, 22],
+        "eventId": "1039573(IslandHut)"
+    },
+	{
+        "animation": "depressed",
+        "frames": [18],
+        "eventId": "1039573(IslandHut)"
+    },
+	{
+        "animation": "poke",
+        "frames": [19],
+        "eventId": "1039573(IslandHut)"
+    },
+	{
+        "animation": "ladder",
+        "frames": [20, 21],
+        "eventId": "1039573(IslandHut)"
+    },
+	{
+        "animation": "sleep",
+        "frames": [23],
+        "eventId": "leo_sleep(Schedule)"
+    },
+	{
+        "animation": "sit",
+        "frames": [24],
+        "eventId": "leo_sit_up(Schedule)"
+    }
+]

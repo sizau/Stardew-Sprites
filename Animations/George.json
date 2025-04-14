@@ -1,0 +1,42 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "eyes",
+        "frames": [0, 0, 0, 20, 20, 20],
+        "eventId": "5837189(JoshHouse)"
+    },
+	{
+        "animation": "look down",
+        "frames": [16],
+        "eventId": "george_sleep(Schedule), 5837189(JoshHouse), 34(JoshHouse), 191393(Town)"
+    },
+	{
+        "animation": "nap",
+        "frames": [16, 16, 17, 17, 18, 18 ,19 ,19 ,18, 18 ,17 ,17 ,16 ,16],
+        "eventId": ""
+    },
+	{
+        "animation": "leek",
+        "frames": [21],
+        "eventId": "5837189(JoshHouse)"
+    }
+]

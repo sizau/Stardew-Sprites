@@ -1,0 +1,98 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "FlowerDance",
+        "frames": [	40, 40, 40, 40, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 46, 46, 46, 46],
+        "eventId": "mainEvent(spring24)"
+    },
+	{
+        "animation": "wedding",
+        "frames": [36, 36, 36, 36, 37, 37, 37, 37, 38, 38, 38, 38, 37, 37, 37, 37, 36, 36, 36, 36],
+        "eventId": "",
+        "eventPath": ""
+    },
+	{
+        "animation": "flute",
+        "frames": [16, 16, 17, 17,18, 18, 19, 19],
+        "eventId": "2(Mountain), abigail_flute(Schedule)"
+    },
+	{
+        "animation": "videogames",
+        "frames": [22, 21, 20, 20, 20, 20, 20, 20, 21, 22],
+        "eventId": "abigail_videogames(Schedule), 1(eedShop), 901756(Mine)",
+    },
+	{
+        "animation": "sit",
+        "frames": [23],
+        "eventId": "abigail_sit_down(Schedule)"
+    },
+	{
+        "animation": "huddle down",
+        "frames": [26, 24, 25, 25, 25, 25, 24, 24, 27, 27, 4, 24, 27, 27],
+        "eventId": "901756(Mine), 4(Town), mainEvent(summer28), 6963327(Backwoods)"
+    },
+	{
+        "animation": "lauphing",
+        "frames": [28, 29],
+        "eventId": "901756(Mine), 4(Town)"
+    },
+	{
+        "animation": "boardGame",
+        "frames": [30, 30, 30, 30, 31, 31, 31, 31],
+        "eventId": "3(SeedShop)"
+    },
+	{
+        "animation": "surprised",
+        "frames": [32],
+        "eventId": "6963327(Backwoods), 901756(Mine)"
+    },
+	{
+        "animation": "kissing",
+        "frames": [33],
+        "eventId": "901756(Mine), 6963327(Backwoods)"
+    },
+	{
+        "animation": "playing drum",
+        "frames": [49, 34, 35, 48],
+        "eventId": "poppy(Temp), heavy(Temp), techno(Temp), honkytonk(Temp)"
+    },
+	{
+        "animation": "kneel",
+        "frames": [39],
+        "eventId": "6963327(Backwoods)"
+    },
+	{
+        "animation": "attack",
+        "frames": [50, 51],
+        "eventId": "6963327(Backwoods)"
+    },
+	{
+        "animation": "sleep",
+        "frames": [52],
+        "eventId": "abigail_sleep(Schedule)"
+    },
+	{
+        "animation": "meditation",
+        "frames": [53],
+        "eventId": "150938(HaleyHouse)"
+    }
+]

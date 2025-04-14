@@ -1,0 +1,53 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "exercise",
+        "frames": [16, 16, 17, 17, 16, 16 ,18 ,18],
+        "eventId": "caroline_exercise(Schedule)"
+    },
+	{
+        "animation": "read",
+        "frames": [19],
+        "eventId": "caroline_read(Schedule)"
+    },
+	{
+        "animation": "tea",
+        "frames": [20, 20, 20, 20, 20, 21, 21, 21],
+        "eventId": "719926",
+        "eventPath": "719926(Sunroom)"
+    },
+	{
+        "animation": "gardening",
+        "frames": [22],
+        "eventId": "719926(Sunroom)"
+    },
+	{
+        "animation": "sleep",
+        "frames": [23],
+        "eventId": "caroline_sleep(Schedule)"
+    },
+	{
+        "animation": "meditation",
+        "frames": [24],
+        "eventId": "150938(HaleyHouse)"
+    }
+]

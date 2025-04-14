@@ -1,0 +1,97 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "FlowerDance",
+        "frames": [	40, 40, 40, 40, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 46, 46, 46, 46],
+        "eventId": "mainEvent(spring24)"
+    },	
+	{
+        "animation": "wedding",
+        "frames": [36, 36, 36, 36, 37, 37, 37, 37, 38, 38, 38, 38, 37, 37, 37, 37, 36, 36, 36, 36],
+        "eventId": ""
+    },
+	{
+        "animation": "read",
+        "frames": [16, 17, 19, 18, 18, 18, 18, 19, 17, 16],
+        "eventId": "penny_read(Schedule), 8959199(Forest)"
+    },
+	{
+        "animation": "wave left",
+        "frames": [20],
+        "eventId": "penny_wave_left(Schedule), 34(Town)"
+    },
+	{
+        "animation": "morning",
+        "frames": [21],
+        "eventId": "4324303(FarmHouse)"
+    },
+	{
+        "animation": "depressed",
+        "frames": [23],
+        "eventId": "611173(Town), 6184643(Town), 35(Trailer)"
+    },
+	{
+        "animation": "dishes",
+        "frames": [24, 25],
+        "eventId": "penny_dishes(Schedule), 4325434(FarmHouse), 35(Trailer)"
+    },
+	{
+        "animation": "call",
+        "frames": [26],
+        "eventId": "181928(Forest)"
+    },
+	{
+        "animation": "surprised",
+        "frames": [27],
+        "eventId": "choseFarming(Forest)"
+    },
+	{
+        "animation": "cook",
+        "frames": [29, 29, 30, 30, 29, 29, 30, 30, 28, 28, 28, 28],
+        "eventId": "36(Trailer), 4325434(FarmHouse)"
+    },
+	{
+        "animation": "bath",
+        "frames": [31, 31, 32, 32, 32, 32],
+        "eventId": "38(BathHouse_Pool)"
+    },
+	{
+        "animation": "sit",
+        "frames": [34],
+        "eventId": "penny_sit_down(Schedule), set-up_y2(fall16), mainEvent_y2(summer11)"
+    },
+	{
+        "animation": "kiss",
+        "frames": [35],
+        "eventId": ""
+    },
+	{
+        "animation": "hug",
+        "frames": [39],
+        "eventId": "611173(Town), choseToBeKnown(Town), choseToBeKnown_pennySpouse(Town)"
+    },
+	{
+        "animation": "sleep",
+        "frames": [48],
+        "eventId": "penny_sleep(Schedule)"
+    }
+]

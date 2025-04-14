@@ -1,0 +1,97 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "FlowerDance",
+        "frames": [	40, 40, 40, 40, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 46, 46, 46, 46],
+        "eventId": "mainEvent(spring24)"
+    },	
+	{
+        "animation": "wedding",
+        "frames": [36, 36, 36, 36, 37, 37, 37, 37, 38, 38, 38, 38, 37, 37, 37, 37, 36, 36, 36, 36],
+        "eventId": ""
+    },
+	{
+        "animation": "",
+        "frames": [16, 16, 17, 17],
+        "eventId": "",
+        "eventPath": ""
+    },
+	{
+        "animation": "",
+        "frames": [18, 18, 19, 19],
+        "eventId": "",
+        "eventPath": ""
+    },
+	{
+        "animation": "jar",
+        "frames": [20, 20, 20, 20, 21, 21, 22, 22],
+        "eventId": "12(HaleyHouse)"
+    },
+	{
+        "animation": "dissapointed",
+        "frames": [22],
+        "eventId": "13",
+        "eventPath": "Data/Events/Beach"
+    },
+	{
+        "animation": "smile",
+        "frames": [23],
+        "eventId": "6184644",
+        "eventPath": "Data/Events/Town"
+    },
+	{
+        "animation": "camera",
+        "frames": [30, 30, 30, 30, 31, 24, 24, 24, 24, 31, 30, 30, 30, 30, 33, 33, 33, 33, 32, 25, 25, 25, 25, 32, 33, 33, 33, 33, 32, 25, 25, 25, 25, 32, 33, 33, 33, 33],
+        "eventId": "14(Forest), haley_photo(Schedule), mainEvent_y2(winter8)"
+    },
+	{
+        "animation": "pose",
+        "frames": [26],
+        "eventId": "haley_photo(Schedule)"
+    },
+	{
+        "animation": "smile",
+        "frames": [23],
+        "eventId": "6184644(Town)"
+    },
+	{
+        "animation": "kiss",
+        "frames": [28],
+        "eventId": "15(HaleyHouse), 8675611(FarmHouse)"
+    },
+	{
+        "animation": "",
+        "frames": [29],
+        "eventId": "15(HaleyHouse)"
+    },
+	{
+        "animation": "meditation",
+        "frames": [34],
+        "eventId": "150938",
+        "eventPath": "Data/Events/HaleyHouse"
+    },
+	{
+        "animation": "sleep",
+        "frames": [39],
+        "eventId": "haley_sleep(Schedule)"
+    }	
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "bed",
+        "frames": [36],
+        "eventId": "stayPut(SamHouse)"
+    },
+	{
+        "animation": "depressed",
+        "frames": [37],
+        "eventId": "rejectSam(SamHouse)"
+    },
+	{
+        "animation": "kiss",
+        "frames": [38],
+        "eventId": "233104(SamHouse)"
+    },
+	{
+        "animation": "work",
+        "frames": [40, 40, 41, 41, 42, 42, 41 ,41],
+        "eventId": "sam_work(Schedule)"
+    }
+]

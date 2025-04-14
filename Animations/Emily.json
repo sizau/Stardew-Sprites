@@ -1,0 +1,102 @@
+[
+    {
+        "animation": "AnimateDown",
+        "frames": [0, 1, 2, 3],
+        "eventId": ""
+    },
+    {
+        "animation": "AnimateRight",
+        "frames": [4, 5, 6, 7],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateUp",
+        "frames": [8, 9, 10, 11],
+        "eventId": ""
+    },
+	{
+        "animation": "AnimateLeft",
+        "frames": [12, 13, 14, 15],
+        "eventId": ""
+    },
+	{
+        "animation": "FlowerDance",
+        "frames": [	40, 40, 40, 40, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 46, 46, 46, 47, 47, 47, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 43, 43, 43, 41, 41, 41, 43, 43, 43, 42, 42, 42, 46, 46, 46, 46],
+        "eventId": "mainEvent(spring24)"
+    },
+	{
+        "animation": "wedding",
+        "frames": [36, 36, 36, 36, 37, 37, 37, 37, 38, 38, 38, 38, 37, 37, 37, 37, 36, 36, 36, 36],
+        "eventId": ""
+    },
+	{
+        "animation": "dance",
+        "frames": [	16, 16, 17, 17, 16, 16, 17, 17, 20, 20, 21, 21, 20, 20, 21, 21, 16, 16, 17, 17, 16, 16, 17, 17, 22, 22, 23, 23, 22, 22, 23, 23,],
+        "eventId": "emily_exercise(Schedule), 917409(HaleyHouse), poppy(Temp), heavy(Temp), techno(Temp), onkytonk(Temp), set-up(summer11), set-up_y2(summer11)"
+    },
+	{
+        "animation": "dream",
+        "frames": [24, 24, 25, 25],
+        "eventId": "471942(HaleyHouse)"
+    },
+	{
+        "animation": "surprised",
+        "frames": [26],
+        "eventId": "2123243(ManorHouse), 471942(HaleyHouse), governorReaction6(summer11)"
+    },
+	{
+        "animation": "depressed",
+        "frames": [27],
+        "eventId": "mainEvent(summer28)"
+    },
+	{
+        "animation": "bird",
+        "frames": [28, 28, 29, 29, 28, 28, 30, 30],
+        "eventId": "463391(Town)"
+    },
+	{
+        "animation": "dance2",
+        "frames": [31, 31, 39, 39],
+        "eventId": "917409(HaleyHouse)"
+    },
+	{
+        "animation": "surprised2",
+        "frames": [32],
+        "eventId": "463391(Town)"
+    },
+	{
+        "animation": "sleep",
+        "frames": [33],
+        "eventId": "emily_sleep;(Schedule), 471942(HaleyHouse)"
+    },
+	{
+        "animation": "morning",
+        "frames": [34, 35],
+        "eventId": "463391(Town)"
+    },
+	{
+        "animation": "lauphing",
+        "frames": [48, 49],
+        "eventId": "917409(HaleyHouse)"
+    },
+	{
+        "animation": "exhausted",
+        "frames": [50, 51],
+        "eventId": "917409(HaleyHouse)"
+    },
+	{
+        "animation": "get close",
+        "frames": [52, 53, 52, 53, 52, 53],
+        "eventId": "2123343(Woods), 3917601(farmHouse)"
+    },
+	{
+        "animation": "meditation",
+        "frames": [54],
+        "eventId": "150938(HaleyHouse)"
+    },
+	{
+        "animation": "shoulder",
+        "frames": [55],
+        "eventId": "3917601(farmHouse), 2123343(Woods)"
+    }
+]
