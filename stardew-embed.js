@@ -3,6 +3,97 @@
  * 此脚本会自动检测页面上的预设角色元素并显示对应动画
  */
 (function() {
+    // 预定义所有角色和变体的文件列表
+    const STARDEW_FILES = {
+        // 角色精灵图文件列表
+        characterFiles: [
+            'Abigail_Beach.png', 'Abigail_Winter.png', 'Abigail.png',
+            'Alex_Beach.png', 'Alex_Winter.png', 'Alex.png',
+            'Birdie.png',
+            'Caroline_Beach.png', 'Caroline_Winter.png', 'Caroline.png',
+            'Clint_Beach.png', 'Clint_Winter.png', 'Clint.png',
+            'Demetrius_Winter.png', 'Demetrius.png',
+            'Elliott_Beach.png', 'Elliott_Winter.png', 'Elliott.png',
+            'Emily_Beach.png', 'Emily_Winter.png', 'Emily.png',
+            'Evelyn_Winter.png', 'Evelyn.png',
+            'George_Winter.png', 'George.png',
+            'Gus_Winter.png', 'Gus.png',
+            'Haley_Beach.png', 'Haley_Winter.png', 'Haley.png',
+            'Harvey_Beach.png', 'Harvey_Winter.png', 'Harvey.png',
+            'Jas_Winter.png', 'Jas.png',
+            'Jodi_Beach.png', 'Jodi_Winter.png', 'Jodi.png',
+            'Kent_Winter.png', 'Kent.png',
+            'Leah_Beach.png', 'Leah_Winter.png', 'Leah.png',
+            'Lewis_Beach.png', 'Lewis_Winter.png', 'Lewis.png',
+            'Linus_Winter.png', 'Linus.png',
+            'Marcello.png',
+            'Marnie_Beach.png', 'Marnie_Winter.png', 'Marnie.png',
+            'Maru_Beach.png', 'Maru_Hospital.png', 'Maru_Winter.png', 'Maru.png',
+            'Morris.png',
+            'Pam_Beach.png', 'Pam_Winter.png', 'Pam.png',
+            'ParrotBoy_Winter.png', 'ParrotBoy.png',
+            'Penny_Beach.png', 'Penny_Winter.png', 'Penny.png',
+            'Pierre_Beach.png', 'Pierre_Winter.png', 'Pierre.png',
+            'Robin_Beach.png', 'Robin_Winter.png', 'Robin.png',
+            'SafariGuy.png',
+            'Sam_Beach.png', 'Sam_JojaMart.png', 'Sam_Winter.png', 'Sam.png',
+            'Sandy.png',
+            'Sebastian_Beach.png', 'Sebastian_Winter.png', 'Sebastian.png',
+            'Shane_Beach.png', 'Shane_JojaMart.png', 'Shane_Winter.png', 'Shane.png',
+            'Vincent_Winter.png', 'Vincent.png',
+            'Willy_Winter.png', 'Willy.png',
+            'Wizard.png'
+        ],
+        
+        // 动画配置文件列表
+        animationFiles: [
+            'Abigail_Beach.json', 'Abigail_Winter.json', 'Abigail.json',
+            'Alex_Beach.json', 'Alex_Winter.json', 'Alex.json',
+            'Birdie.json',
+            'Caroline_Beach.json', 'Caroline_Winter.json', 'Caroline.json',
+            'Clint_Beach.json', 'Clint_Winter.json', 'Clint.json',
+            'Demetrius_Winter.json', 'Demetrius.json',
+            'Elliott_Beach.json', 'Elliott_Winter.json', 'Elliott.json',
+            'Emily_Beach.json', 'Emily_Winter.json', 'Emily.json',
+            'Evelyn_Winter.json', 'Evelyn.json',
+            'George_Winter.json', 'George.json',
+            'Gus_Winter.json', 'Gus.json',
+            'Haley_Beach.json', 'Haley_Winter.json', 'Haley.json',
+            'Harvey_Beach.json', 'Harvey_Winter.json', 'Harvey.json',
+            'Jas_Winter.json', 'Jas.json',
+            'Jodi_Beach.json', 'Jodi_Winter.json', 'Jodi.json',
+            'Kent_Winter.json', 'Kent.json',
+            'Leah_Beach.json', 'Leah_Winter.json', 'Leah.json',
+            'Lewis_Beach.json', 'Lewis_Winter.json', 'Lewis.json',
+            'Linus_Winter.json', 'Linus.json',
+            'Marcello.json',
+            'Marnie_Beach.json', 'Marnie_Winter.json', 'Marnie.json',
+            'Maru_Beach.json', 'Maru_Hospital.json', 'Maru_Winter.json', 'Maru.json',
+            'Morris.json',
+            'Pam_Beach.json', 'Pam_Winter.json', 'Pam.json',
+            'ParrotBoy_Winter.json', 'ParrotBoy.json',
+            'Penny_Beach.json', 'Penny_Winter.json', 'Penny.json',
+            'Pierre_Beach.json', 'Pierre_Winter.json', 'Pierre.json',
+            'Robin_Beach.json', 'Robin_Winter.json', 'Robin.json',
+            'SafariGuy.json',
+            'Sam_Beach.json', 'Sam_JojaMart.json', 'Sam_Winter.json', 'Sam.json',
+            'Sandy.json',
+            'Sebastian_Beach.json', 'Sebastian_Winter.json', 'Sebastian.json',
+            'Shane_Beach.json', 'Shane_JojaMart.json', 'Shane_Winter.json', 'Shane.json',
+            'Vincent_Winter.json', 'Vincent.json',
+            'Willy_Winter.json', 'Willy.json',
+            'Wizard.json'
+        ],
+        
+        // 所有可用的变体类型
+        variantTypes: [
+            { value: 'Beach', label: '海滩' },
+            { value: 'Winter', label: '冬季' },
+            { value: 'JojaMart', label: 'Joja超市' },
+            { value: 'Hospital', label: '医院' }
+        ]
+    };
+    
     // 等待DOM加载完成
     document.addEventListener('DOMContentLoaded', () => {
         // 查找所有带有角色播放器标识的容器
@@ -167,35 +258,20 @@
             animationsContainer.style.display = 'flex';
         }
     }
-    
-    /**
+      /**
      * 获取角色可用变体
      * @param {string} characterName - 角色名称
      * @returns {Promise<Array>} - 变体数组
      */
     async function getCharacterVariants(characterName) {
-        // 注意：在实际环境中，这个函数可以从服务器获取变体列表
-        // 这里我们使用一个预设的列表来模拟常见的变体
-        
-        const commonVariants = [
-            { value: 'Beach', label: '海滩' },
-            { value: 'Winter', label: '冬季' },
-            { value: 'JojaMart', label: 'Joja超市' },
-            { value: 'Hospital', label: '医院' }
-        ];
-        
         const availableVariants = [];
         
-        // 检查每个变体是否存在
-        for (const variant of commonVariants) {
-            try {
-                // 尝试加载变体的动画配置文件，判断是否存在该变体
-                const response = await fetch(`Animations/${characterName}_${variant.value}.json`);
-                if (response.ok) {
-                    availableVariants.push(variant);
-                }
-            } catch (error) {
-                // 忽略错误，表示变体不存在
+        // 从预定义的文件列表中检查该角色的可用变体
+        for (const variant of STARDEW_FILES.variantTypes) {
+            // 检查是否存在对应的变体文件名
+            const variantFileName = `${characterName}_${variant.value}.json`;
+            if (STARDEW_FILES.animationFiles.includes(variantFileName)) {
+                availableVariants.push(variant);
             }
         }
         
