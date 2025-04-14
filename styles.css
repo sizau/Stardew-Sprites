@@ -56,25 +56,20 @@ select {
 
 .animation-box {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 5px;
     border-radius: 4px;
     text-align: center;
-    width: 150px;
+    width: 60px;
+    margin: 5px;
 }
 
 .animation-title {
-    margin-bottom: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: none; /* 隐藏动画标题 */
 }
 
 .sprite-container {
-    width: 64px;
-    height: 128px;
+    width: 48px;
+    height: 96px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -88,5 +83,5 @@ select {
     top: 0;
     left: 0;
     transform-origin: 0 0;
-    transform: scale(4); /* 放大4倍，使16px变为64px */
+    transform: scale(3); /* 放大3倍，使16px变为48px */
 }
