@@ -311,7 +311,7 @@
     async function loadAnimationConfig(characterName) {
         try {
             // 从Animations目录加载对应的JSON文件
-            const response = await fetch(`Animations/${characterName}.json`);
+            const response = await fetch(`https://wiki.biligame.com/stardewvalley/%E6%95%B0%E6%8D%AE:Animation/${characterName}.json?action=raw&ctype=application/json`);
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
@@ -393,7 +393,7 @@
             spriteElement.className = 'stardew-embed-sprite';
             spriteElement.style.width = `${spriteImage.width}px`;
             spriteElement.style.height = `${spriteImage.height}px`;
-            spriteElement.style.backgroundImage = `url(Characters/${characterName}.png)`;
+            spriteElement.style.backgroundImage = `url(https://wiki.biligame.com/stardewvalley/Special:Redirect/file/Animation_${characterName}.png)`;
             
             // 组装DOM结构
             spriteContainer.appendChild(spriteElement);
