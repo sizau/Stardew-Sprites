@@ -83,25 +83,7 @@
             { value: 'Hospital', label: '医院' }
         ]
     };
-    function safeOperation(fn, ...args) {
-        try {
-            return typeof fn === 'function' && fn.constructor.name !== 'AsyncFunction'
-                ? fn(...args)
-                : null;
-        } catch (e) {
-            console.log(`${fn.name} 执行失败: ${e}`);
-            return null;
-        }
-    }
-    function onDOMReady(callback) {
-        safeOperation(() => {
-            const execute = () => safeOperation(callback);
-            document.readyState === "loading"
-                ? document.addEventListener("DOMContentLoaded", execute)
-                : execute();
-        });
-    }
-    onDOMReady(() => {
+    (() => {
         const playerContainers = document.querySelectorAll('#stardew-character-player, [data-stardew-character]');
         if (playerContainers.length === 0) {
             console.warn('未找到Stardew Valley角色播放器容器');
@@ -110,7 +92,7 @@
         playerContainers.forEach(container => {
             initCharacterPlayer(container);
         });
-    });
+    })();
     function initCharacterPlayer(container) {
         const characterName = container.dataset.character || container.dataset.stardewCharacter;
         if (!characterName) {
@@ -125,7 +107,7 @@
         container.classList.add('stardew-embed');
         container.innerHTML = `
             <div class="stardew-embed-container">
-                <div class="stardew-embed-sidebar">
+                <div class="stardew-embed-tabs">
                     <div class="stardew-embed-variants">
                         <div class="stardew-embed-variant-item active" data-variant="">默认</div>
                     </div>

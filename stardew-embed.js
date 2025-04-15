@@ -136,15 +136,14 @@
      * 创建播放器DOM结构
      * @param {HTMLElement} container - 容器元素
      * @param {string} characterName - 角色名称
-     */
-    function createPlayerStructure(container, characterName) {
+     */    function createPlayerStructure(container, characterName) {
         // 设置容器类
         container.classList.add('stardew-embed');
         
         // 创建基本结构
         container.innerHTML = `
             <div class="stardew-embed-container">
-                <div class="stardew-embed-sidebar">
+                <div class="stardew-embed-tabs">
                     <h3 class="stardew-embed-title">${characterName}</h3>
                     <ul class="stardew-embed-variants">
                         <li class="stardew-embed-variant-item active" data-variant="">默认</li>

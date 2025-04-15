@@ -5,55 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stardew Valley 角色动画播放器 - 嵌入式</title>
 <style>
-    /* 嵌入式播放器样式 */
     .stardew-embed {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    
-    .stardew-embed-container {
+      .stardew-embed-container {
         display: flex;
-        border: 1px solid #ddd;
+        flex-direction: column;
         border-radius: 8px;
         overflow: hidden;
-        background-color: white;
+        background-color: #ffffff61;
     }
     
-    .stardew-embed-sidebar {
-        min-width: 110px;
-        border-right: 1px solid #ddd;
-        padding: 15px;
-        background-color: #f9f9f9;
+    .stardew-embed-tabs {
+        display: flex;
+        background-color: #f9f9f961;
     }
     
     .stardew-embed-title {
-        margin-top: 0;
-        margin-bottom: 15px;
-        color: #4b692f;
+        margin: 0;
+        padding: 15px;
+        color: #4b692f61;
         font-size: 18px;
+        display: inline-block;
+        min-width: 120px;
     }
     
     .stardew-embed-variants {
+        display: flex;
         list-style: none;
         padding: 0;
         margin: 0;
+        align-items: center;
     }
     
     .stardew-embed-variant-item {
-        padding: 8px 10px;
-        border-radius: 4px;
+        padding: 10px 15px;
         cursor: pointer;
-        margin-bottom: 5px;
         transition: background-color 0.2s;
+        margin-right: 2px;
+        border-radius: 4px 4px 0 0;
     }
     
     .stardew-embed-variant-item:hover {
-        background-color: #eaeaea;
+        background-color: #eaeaea61;
     }
     
     .stardew-embed-variant-item.active {
-        background-color: #dbe8c9;
-        color: #4b692f;
+        background-color: var(--common-green);
+        color: #fff;
+        text-shadow: 1px 1px #1e8e64;
         font-weight: bold;
+        pointer-events: none;
     }
     
     .stardew-embed-content {
@@ -78,7 +80,6 @@
     }
     
     .stardew-embed-animation {
-        border: 1px solid #eee;
         padding: 5px;
         border-radius: 4px;
         width: 60px;
@@ -86,7 +87,7 @@
     }
     
     .stardew-embed-animation-title {
-        display: none; /* 隐藏动画标题 */
+        display: none;
     }
     
     .stardew-embed-sprite-container {
@@ -105,11 +106,11 @@
         top: 0;
         left: 0;
         transform-origin: 0 0;
-        transform: scale(3); /* 放大3倍 */
+        transform: scale(3);
     }
     
     .stardew-embed-error {
-        color: #cc0000;
+        color: #cc000061;
         text-align: center;
         padding: 20px;
     }
